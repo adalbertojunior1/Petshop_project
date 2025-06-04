@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mary & Gabi Petshop</title>
+    <link rel="stylesheet" href="css/petshop.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <img src="img/logo-mari-e-gabi-petshop.svg" alt="Logo Petshop">
+        </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li id="itemContato"><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- SOBRE NÓS -->
+        <section class="fundo-verde">
+            <div class="container flex-container">
+                <div class="col">
+                    <h2>Sobre nós</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ullam, sunt culpa ad vel iure
+                        laudantium illum optio at cupiditate.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro beatae ipsa sit ex molestiae
+                        reiciendis qui minima eos minus labore?</p>
+                </div>
+                <div class="col">
+                    <img src="img/img-sobre.jpg" alt="Cachorros">
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUTOS -->
+        <section id="produto">
+            <div class="container">
+                <h2 class="texto-centralizado">Produtos</h2>
+                <p class="texto-centralizado">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut corrupti optio
+                    culpa, labore error fugiat quibusdam hic ea ipsa dignissimos reiciendis vero, rerum, delectus minus!
+                </p>
+                <div class="flex-container">
+                    <article class="produto">
+                        <figure>
+                            <img src="img/produto-1.jpg" alt="Produto 1">
+                        </figure>
+                        <h3>Pet Produto #1</h3>
+                        <p>R$ 150,00</p>
+                        <a href="#" class="btn-pata">
+                            <img src="img/patinha-preta.png" alt="patinha preta">
+                            Comprar
+                        </a>
+                    </article>
+
+                    <article class="produto">
+                        <figure>
+                            <img src="img/produto-2.jpg" alt="Produto 2">
+                        </figure>
+                        <h3>Pet Produto #2</h3>
+                        <p>R$ 160,00</p>
+                        <a href="#" class="btn-pata">
+                            <img src="img/patinha-preta.png" alt="patinha preta">
+                            Comprar
+                        </a>
+                    </article>
+
+                    <article class="produto">
+                        <figure>
+                            <img src="img/produto-3.jpg" alt="Produto 3">
+                        </figure>
+                        <h3>Pet Produto #3</h3>
+                        <p>R$ 170,00</p>
+                        <a href="#" class="btn-pata">
+                            <img src="img/patinha-preta.png" alt="patinha preta">
+                            Comprar
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVIÇOS -->
+        <section class="fundo-verde">
+            <div class="container flex-container">
+                <div class="col">
+                    <h2>SERVIÇOS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ullam, sunt culpa
+                        ad vel iure laudantium illum optio at cupiditate.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro beatae ipsa sit
+                        ex molestiae reiciendis qui minima eos minus labore?</p>
+                </div>
+                <div class="col">
+                    <div class="galeria-servicos">
+                        <img src="img/img-galeria-1.jpg" alt="">
+                        <img src="img/img-galeria-2.jpg" alt="">
+                        <img src="img/img-galeria-3.jpg" alt="">
+                        <img src="img/img-galeria-4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato">
+            <div class="container">
+                <div class="texto-centralizado">
+                    <h2>Contato</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+                        exercitationem sunt laborum
+                        impedit, itaque iste, magnam velit expedita mollitia iusto repellendus eaque
+                        illo quaerat
+                        doloribus, alias quisquam praesentium! Amet, quasi!</p>
+                </div>
+                <div class="flex-container">
+                    <div class="col">
+                        <form action="">
+                            <label for="name">
+                                <strong>Nome</strong>
+                                <input type="text" placeholder="Insira o seu nome completo">
+                            </label>
+                            <label for="email">
+                                <strong>Email</strong>
+                                <input type="email" id="email" placeholder="exemplo@teste.com.br">
+                                <label for="tel">
+                                    <strong>Telefone</strong>
+                                    <input type="tel" id="tel" placeholder=" (11) 0000-0000">
+                                </label>
+                                <label for="assunto">
+                                    <strong>Assunto:</strong>
+                                    <input type="text" id="assunto" placeholder="Insira aqui o assunto da mensagem">
+                                </label>
+                                <label for="msg">
+                                    <strong>Mensagem</strong>
+                                    <textarea name="" id="msg" rows="10"
+                                        placeholder="Insira aqui sua mensagem"></textarea>
+                                </label>
+                                <div>
+                                    <button class="btn-pata">
+                                        <img src="img/patinha-preta.png" alt="Patinha preta">
+                                        Enviar
+                                    </button>
+                                </div>
+
+                        </form>
+                    </div>
+                    <div class="col">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d116950.68728754645!2d-46.97224912656562!3d-23.650591104402494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94ce5212f9627de5%3A0x1c5ccd29c1a3e96a!2sEstr.%20da%20Baronesa%2C%201695%20-%20Jardim%20Angela%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004941-175!3m2!1d-23.6979923!2d-46.7659416!5e0!3m2!1spt-BR!2sbr!4v1747960808929!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <p>Estrada da Baronesa, 1695 - Jardim Ângela - SP</p>
+                        <p><strong>CEP:</strong> 04941-175</p>
+                        <p><strong>TEL:</strong> (11) 5833-0861</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--criar um footer com o link e logo do github, juntamnete do link do linkedn-->
+        <footer>
+            <div id="logo">
+                <img src="data:image/png;base64,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"" alt="Descrição da imagem"> 
+                <a href="https://github.com/adalbertojunior1">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/2048px-Github-desktop-logo-symbol.svg.png" alt="">
+                </a>
+            </div>
+
+        </footer>
+        
+
+    </main>
+</body>
+
+</html>

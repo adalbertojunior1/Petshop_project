@@ -1,0 +1,29 @@
+/* div > p{
+    background-color: #676767;
+} */
+
+/* h1 + p{
+    background-color: brown;
+} */
+
+h1 ~ p {
+
+    background-color: blueviolet;
+    text-decoration:
+}
+
+
+elemento{
+    background-color: *hexadecimal, nome, rgb, rgba;
+    background-image: *url();
+    background-size: *x, y, cover, contain, %, px, rem, em;
+    background-repeat: *repeat, no-repeat;
+    background-position: *top, right, bottom, left;
+}
+
+elemento{
+    font-size: *px, em, rem, %*;
+    font-weight: *0 a 1000;
+    font-style: *normal, oblique, italic;
+    font-family: *serif, sans-serif, monospace, custom*;
+}
